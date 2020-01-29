@@ -1,5 +1,5 @@
 ---
-title: 'ML 2011 Final Project'
+title: 'NBA Clustering on Skillsets'
 author: "Joe Marlo, Andrew Pagtakhan, George Perrett, Bilal Waheed"
 date: "In Loving Memory of Kobe Bryant: 1978 - 2020"
 output:
@@ -35,10 +35,6 @@ The original source of the data can be found at these links:
 
 ## Research question
 Are there underlying patterns of groupings between NBA team compensation vs. overall team skill-sets?
-
-
-## Group member roles
-We all collaboratively contributed to the project in all aspects. Specifically, Joe contributed to scraping the player salary, additional player features, and visualizations. Andrew contributed to cleaning the data, hierarchical/K-means models, and post-cluster analysis. Bilal contributed to the hierarchical/K-Means modeling and the write-up. George contributed to the model-based clustering and data transformation.
 
 
 ## Data description 
@@ -428,7 +424,7 @@ plot(names(cluster_sizes_km_ch$All.index),
 # plot C(G)
 plot(names(cluster_sizes_km_s$All.index),
      cluster_sizes_km_s$All.index,
-     main = 'Silhouette index: KKM',
+     main = 'Silhouette index: KM',
      type = 'l')
 ```
 
