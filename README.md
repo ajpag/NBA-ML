@@ -1,5 +1,5 @@
 # NBA Clustering on Skillsets
-Authors: _Joe Marlo, Andrew Pagtakhan, George Perrett, Bilal Waheed_
+_Joe Marlo, Andrew Pagtakhan, George Perrett, Bilal Waheed_
 
 The project is an unsupervised approach to discover underlying patterns or groupings between NBA compensation vs.
 overall team skillsets. It uses K-means, hierarchical, and model-based clustering along with other techniques and tools such as principal component analysis, standardizing, scaling, and web-scraping.
