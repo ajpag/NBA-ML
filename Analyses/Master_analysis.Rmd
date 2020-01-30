@@ -21,7 +21,7 @@ knitr::opts_knit$set(root.dir = normalizePath('..'))
 
 # Resources for reproducing this project
 
-The repository containing the raw and cleaned data along with all code required to run the analyses can be found at https://github.com/joemarlo/ML-NBA.  
+The repository containing the raw and cleaned data along with all code required to run the analyses can be found at https://github.com/ajpag/NBA-ML/.  
 
 The original source of the data can be found at these links:  
 
